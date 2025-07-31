@@ -1,0 +1,14 @@
+# Banner Image Placeholder
+
+This is a placeholder for the banner.jpg image.
+
+To add your banner image:
+1. Replace this file with your actual banner image
+2. Make sure it's named "banner.jpg"
+3. Recommended size: 1200x400 pixels or similar aspect ratio
+4. The image will be displayed at the top of your website
+
+The banner image will be displayed with:
+- Full width
+- 256px height (h-64)
+- Object-cover to maintain aspect ratio 
