@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // 构建时忽略 ESLint
-  },
-  typescript: {
-    ignoreBuildErrors: true, // 构建时忽略 TS 错误
-  },
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
 };
-
 module.exports = nextConfig;
