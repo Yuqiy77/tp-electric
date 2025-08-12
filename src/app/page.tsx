@@ -26,11 +26,12 @@ export default function Home() {
           <img
             src="/images/banner.jpg"
             alt="Banner"
-            className="absolute inset-0 w-full h-full object-cover brightness-90"
+            className="absolute w-full h-full object-cover brightness-90"
+            style={{ top: '-20%', left: 0, right: 0 }}
           />
 
           {/* 中间标题（居中定位） */}
-          <div className="absolute top-[8%] left-1/2 transform -translate-x-1/2 z-10 text-center">
+          <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 z-10 text-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">TP ELECTRIC</h1>
             <p className="text-xs md:text-sm lg:text-base text-blue-100">TechPreciese</p>
             <p className="text-sm md:text-lg lg:text-2xl font-semibold text-white mt-2">Smart Choices, Fair Prices</p>
@@ -43,7 +44,7 @@ export default function Home() {
         <nav className="flex items-center bg-white text-black p-4 px-8 relative">
           {/* Logo - 左侧 */}
           <div className="flex-shrink-0">
-            <img src="/images/logo-tp.png" alt="TP Logo" className="h-16 md:h-24 lg:h-32 w-auto" />
+            <img src="/images/TP Logo.png" alt="TP Logo" className="h-16 md:h-24 lg:h-32 w-auto" />
           </div>
           
           {/* 桌面端导航菜单 - 使用Grid布局确保稳定 */}
