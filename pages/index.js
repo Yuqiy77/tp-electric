@@ -31,7 +31,7 @@ export default function Home() {
           />
 
           {/* 中间标题（居中定位） */}
-          <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 z-10 text-center">
+          <div className="absolute top-[25%] left-1/2 transform -translate-x-1/2 z-10 text-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">TP ELECTRIC</h1>
             <p className="text-xs md:text-sm lg:text-base text-blue-100">TechPreciese</p>
             <p className="text-sm md:text-lg lg:text-2xl font-semibold text-white mt-2">Smart Choices, Fair Prices</p>
