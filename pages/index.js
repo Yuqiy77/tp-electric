@@ -1,6 +1,6 @@
 "use client";
 
-import { getProducts, Product } from '@/data/products';
+import { getProducts } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
 import { useEffect, useState } from 'react';
 
@@ -72,7 +72,7 @@ export default function Home() {
         <section id="new" className="py-6">
           <h2 className="text-2xl font-bold mb-4">🆕 New Appliances</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {products.new.map((p: Product) => <ProductCard key={p.id} {...p} />)}
+            {products.new.map((p) => <ProductCard key={p.id} {...p} />)}
           </div>
         </section>
 
@@ -80,7 +80,7 @@ export default function Home() {
         <section id="used" className="py-6 bg-white">
           <h2 className="text-2xl font-bold mb-4">♻️ Second-Hand Appliances</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {products.used.map((p: Product) => <ProductCard key={p.id} {...p} />)}
+            {products.used.map((p) => <ProductCard key={p.id} {...p} />)}
           </div>
         </section>
 
@@ -88,7 +88,7 @@ export default function Home() {
         <section id="parts" className="py-6">
           <h2 className="text-2xl font-bold mb-4">🧰 Accessories & Parts</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {products.parts.map((p: Product) => <ProductCard key={p.id} {...p} variant="compact" />)}
+            {products.parts.map((p) => <ProductCard key={p.id} {...p} variant="compact" />)}
           </div>
         </section>
 
@@ -123,4 +123,4 @@ export default function Home() {
       </footer>
     </main>
   );
-}
+} 
